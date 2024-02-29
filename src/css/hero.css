@@ -40,3 +40,54 @@
     background-image: url(../img/Hero-img/heroimg-2x.jpg);
   }
 }
+
+@media screen and (min-width: 768px) {
+  .hero-container {
+    padding-top: 122px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-bottom: 50px;
+  }
+
+  .section-hero-title {
+    font-size: 76px;
+    margin-bottom: 50px;
+  }
+  .section-hero-text {
+    font-size: 16px;
+    line-height: 1.25;
+    padding-right: 101px;
+  }
+
+  .section-hero-img {
+    width: 768px;
+    height: 539px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .section-hero {
+    display: flex;
+  }
+  .hero-container {
+    padding-top: 154px;
+    padding-left: 16px;
+    padding-right: 28px;
+    margin-bottom: 50px;
+    margin: 0;
+  }
+  .section-hero-title {
+    margin-bottom: 128px;
+    width: 502px;
+  }
+  .section-hero-text {
+    padding-right: 30px;
+    width: 472px;
+  }
+
+  .section-hero-img {
+    width: 1280px;
+    height: 800px;
+    margin: 0;
+  }
+}
