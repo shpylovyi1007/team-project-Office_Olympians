@@ -14,7 +14,7 @@
 }
 
 .advertisement-span {
-  display: block;
+  display: inline-block;
   color: #fbfbfb;
   border-radius: 12px;
   background-color: #576f35;
@@ -25,7 +25,7 @@
 }
 
 .advertisement-second-span {
-  display: block;
+  display: inline-block;
   padding: 0 10px;
 }
 
@@ -56,6 +56,7 @@
     width: 704px;
     position: absolute;
     top: 78px;
+    left: 8px;
   }
 }
 
@@ -76,7 +77,9 @@
 
   .advertisement-span {
     display: inline;
+    max-width: 100%;
     padding: 0 8px;
+    height: 86px;
   }
 
   .advertisement-second-span {
