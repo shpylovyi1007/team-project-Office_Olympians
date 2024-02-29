@@ -3,28 +3,28 @@
   padding-top: 100px;
 }
 
+.hero-container {
+  margin-bottom: 40px;
+}
+
 .section-hero-title {
   color: #fbfbfb;
-  font-family: 'Inter Tight';
   font-size: 48px;
   font-weight: 600;
   line-height: 1;
-  letter-spacing: 0, 015em;
   text-transform: uppercase;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .section-hero-text {
   color: #fbfbfb;
-  font-family: 'Inter Tight';
   font-size: 14px;
   font-weight: 500;
-  line-height: 1.3;
-  padding-bottom: 40px;
+  line-height: 1.28;
 }
 
 .section-hero-img {
-  background-image: url(../img/bgimage.jpg);
+  background-image: url(../img/Hero-img/heroimg.jpg);
   background-size: no-repeat;
   background-position: center;
   background-size: cover;
@@ -37,6 +37,6 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .section-hero-img {
-    background-image: url(../img/bgimage-2x.jpg);
+    background-image: url(../img/Hero-img/heroimg-2x.jpg);
   }
 }
