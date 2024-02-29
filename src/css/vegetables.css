@@ -1,34 +1,119 @@
 .vegetables {
     padding: 80px 0;
-
 }
 
-.conteiner-vegetables {
+.container,
+.vegetables {
     background-color: #7a3145;
-    padding-right: 20px;
-    padding-left: 20px;
-    align-items: center;
 }
 
 .title-vegetables {
     letter-spacing: -0.01em;
     text-transform: uppercase;
     color: #fbfbfb;
-    width: 335px;
+    max-width: 335px;
+    margin-bottom: 20px;
 }
 
-.second-part-title {
+.title-span {
     color: rgba(251, 251, 251, 0.3);
 }
 
-.text-vegetables {}
+.text-vegetables {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    color: #fbfbfb;
+    margin-bottom: 40px;
+    max-width: 335px;
+    padding-right: 12px;
+}
 
-.list-vegetables {}
+.list-vegetables {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
 
-.item-vedgetables {}
+.item-vedgetables {
+    border-radius: 40px;
+    padding: 32px 26px;
+    width: 334px;
+    height: 379px;
+    background: #fbfbfb;
+}
 
-.image-vegetables {}
+.card-title-vegetables {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 1.00;
+    letter-spacing: -0.01em;
+    color: #7a3145;
+    margin-bottom: 12px;
+}
 
-.card-title-vegetables {}
+.card-text-vegetables {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #141414;
+    margin-bottom: 14px;
+}
 
-.card-text-vegetables {}
+.image-vegetables {
+    justify-content: center;
+}
+
+@media screen and (min-width: 375px) {
+    .container {
+        width: 375px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+
+    }
+
+    .title-vegetables {
+        max-width: 508px;
+    }
+
+    .text-vegetables {
+        max-width: 626px;
+        padding-right: 57px
+    }
+
+    .list-vegetables {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 28px 20px;
+    }
+
+    .item-vedgetables {
+        width: 342px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        width: 1280px;
+    }
+
+    .text-vegetables {
+        max-width: 626px;
+        padding-right: 57px
+    }
+
+    .list-vegetables {
+        gap: 28px 21px;
+    }
+
+    .item-vedgetables {
+        width: 346px;
+    }
+}
