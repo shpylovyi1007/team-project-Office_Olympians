@@ -1,6 +1,5 @@
 .section-hero {
   background-color: #576f35;
-  padding-top: 100px;
 }
 
 .hero-container {
@@ -70,7 +69,7 @@
     display: flex;
   }
   .hero-container {
-    padding-top: 154px;
+    padding-top: 238px;
     padding-left: 16px;
     padding-right: 28px;
     margin-bottom: 50px;
