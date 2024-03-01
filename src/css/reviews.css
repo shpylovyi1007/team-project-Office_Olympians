@@ -4,7 +4,6 @@
 
 .reviews-title {
     width: 335px;
-    text-align: left;
     text-transform: uppercase;
     margin-bottom: 20px;
 }
@@ -40,7 +39,6 @@
     width: 56px;
     height: 56px;
     border-radius: 100px;
-    margin: 0 auto;
     margin-bottom: 24px;
 }
 
@@ -48,6 +46,7 @@
     color: #040306;
     font-weight: 600;
     line-height: 1.25;
+    letter-spacing: -0.02em;
     margin-bottom: 8px;
 }
 
