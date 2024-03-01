@@ -1,92 +1,75 @@
-.steps{
-    /* padding: 40px 0; */
+.steps .container{
+  padding: 0;
 }
 
-.container-steps-img {
+.works-steps-img {
+  padding: 40px 20px;
+  background-color: #7A3145;
 }
+
+.works-container-steps {
+  padding: 80px 20px;
+  background-color: #576F35;
+}
+
 .cooking-img {
-    border-radius: 30px;
-    background: rgba(20, 20, 20, 0.3);
+  border-radius: 30px;
+  background: rgba(20, 20, 20, 0.3);
 }
 
 .container-steps-img {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    background-color: #7A3145;
+  padding-bottom: 40px;
+}
 
-}
-.container-steps{
-    background-color: #576F35;
-}
 .steps-title-info {
-    padding-top: 80px;
-    font-size: 28px;
-    line-height: 1;
-    letter-spacing: 0.01em;
-    text-transform: uppercase;
-    color: #FBFBFB;
+ font-size: 28px;
+ line-height: 1;
+ letter-spacing: 0.01em;
+ text-transform: uppercase;
+ color: #FBFBFB;
 }
-.steps-title-info-green {
-    color: #889970;  
-}
-.steps-title-deskr {
-    padding-top: 20px;
-    padding-bottom: 40px;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.29;
-    color: #FBFBFB;
-}
-.steps-item {
-}
-.steps-list {
-}
-/* #steps {
-    counter-reset: step;
-  }
-  
-  .steps-list {
-    counter-increment: step;
-  }
-  
-  .steps-list::before {
-    content: counter(step);
-  } */
 
- 
+.steps-title-info-green {
+  color: #889970;  
+}
+
+.steps-title-deskr {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  font-weight: 500; /* в макеті 500, але гарніше коли 400 */
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  line-height: 1.29;
+  color: #FBFBFB;
+}
+
 ol {
-    counter-reset: section; 
-    list-style-type: none;
+  counter-reset: section; 
+  list-style-type: none;
 }
 
 li::before {
-    counter-increment: section; 
-    content: counters(section, ".")
+  counter-increment: section; 
+  content: counters(section, ".")
 }
 
 ol.steps-item {
   list-style: none;
   counter-reset: step;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-/* .numbering-background {
-    position: absolute;
-    content: "";
-    width: 42px;
-    height: 42px;
-    background-color: #7A3145;
-    border-radius: 100%;
-} */
-
 .steps-list {
-  position: relative;
+  position: relative; /* ? */
   display: flex;
-  margin-bottom: 20px;
   background-color: #FBFBFB;
   border-radius: 15px;
-  padding: 12px 27px 12px 24px;
+  padding: 17px 27px 17px 29px;
   width: 100%;
   height: 76px;
+  align-items: center;  
 }
 
 .steps-list::before {
@@ -99,26 +82,101 @@ ol.steps-item {
   color: #FBFBFB;
   border-radius: 100%;
   background-color: #7A3145;
-  width: 52px;
-  height: 52px;
+  width: 42px;
+  height: 42px;
   display: flex;
-  flex-shrink: 1;
+  flex-shrink: 0;
   align-items: center;
   justify-content: center;
   box-shadow: 0 0 0 5px rgba(122, 49, 69, 0.3);
 }
 
 .steps-list p {
-    padding-left: 24px;
-    color: #141414;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.02em;
-    /* color: rgba(20, 20, 20, 0.6); */
-    margin: 0;
-    text-align: left;
-    vertical-align: middle;
-    max-width: 208px;
+  padding-left: 29px;
+  font-weight: 500;  /*але гарніше якщо 400*/
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: rgba(20, 20, 20, 0.6);
+  text-align: left;
+  vertical-align: middle;
+  /* max-width: 235px; */
+}
+
+.steps-list-important {
+  font-weight: 700;
+  color: #141414;
+}
+
+@media screen and (min-width: 768px) {
+
+.works-steps-img{
+  padding: 100px 64px;
+}
+
+.cooking-img {
+  width: 640px;
+  height: 640px;
+}
+
+.works-container-steps {
+  padding: 100px 143px;
+}
+
+.steps-title-info {
+  padding-top: 0;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+}
+
+.steps-title-deskr {
+  line-height: 1.25;
+  font-size: 16px;
+}
+
+.steps-list {
+  padding: 17px 29px 17px 30px;
+}
+
+.steps-list p {
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: rgba(20, 20, 20, 0.6);
+  max-width: 360px;
+}
+}
+
+@media screen and (min-width: 1280px) {
+
+.steps .container{
+  display: flex;
+}
+
+.works-steps-img{
+  padding: 100px 84px;
+  max-width: 630px;
+}
+
+.cooking-img {
+  width: 430px;
+  height: 559px;
+}
+
+.works-container-steps {
+  padding: 100px 84px 160px 84px;
+  max-width: 650px;
+}
+
+.steps-title-info {
+  padding-bottom: 25px;
+}
+
+.steps-list {
+  padding: 17px 29px 17px 30px;
+}
 }
 
