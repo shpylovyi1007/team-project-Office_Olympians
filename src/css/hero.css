@@ -13,6 +13,7 @@
   line-height: 1;
   text-transform: uppercase;
   margin-bottom: 20px;
+  padding-top: 154px;
 }
 
 .section-hero-text {
@@ -51,6 +52,7 @@
   .section-hero-title {
     font-size: 76px;
     margin-bottom: 50px;
+    padding-top: 0;
   }
   .section-hero-text {
     font-size: 16px;
@@ -69,7 +71,7 @@
     display: flex;
   }
   .hero-container {
-    padding-top: 238px;
+    padding-top: 154px;
     padding-left: 16px;
     padding-right: 28px;
     margin-bottom: 50px;
