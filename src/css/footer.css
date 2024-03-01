@@ -4,9 +4,6 @@
     padding-bottom: 40px;
 }
 
-.container {}
-
-.foot-div {}
 
 .foot-logo-text {
     color: #FBFBFB;
@@ -74,13 +71,11 @@
 
 }
 
-.footer-menu {}
 
 .footer-menu-list {
     margin-bottom: 40px;
 }
 
-.footer-menu-item {}
 
 .footer-menu-item:not(:last-child) {
     margin-bottom: 14px;
@@ -116,8 +111,6 @@
 }
 
 
-.footer-privacy-policy {}
-
 .privacy-policy {
     display: flex;
 }
@@ -127,7 +120,6 @@
     gap: 8px;
 }
 
-.privacy-policy-item {}
 
 .privacy-policy-div {
     margin-right: 49px;
@@ -144,14 +136,14 @@
 }
 
 @media screen and (min-width: 768px) {
-    .container {
-        max-width: 768px;
-        padding: 32px 32px 32px 32px;
-        margin: 0 auto;
-    }
 
     .footer {
-        padding: 0%;
+        padding: 0%
+    }
+
+
+    .footer .container {
+        padding: 32px 32px 32px 32px;
     }
 
     .footer-text {
@@ -188,7 +180,7 @@
     .footer-contacts {
         display: flex;
         flex-wrap: wrap;
-        margin-left: auto;
+        margin-left: 489px;
         margin-bottom: 100px;
     }
 
@@ -259,10 +251,13 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .container {
-        max-width: 1280px;
+
+    .footer {
+        padding: 0%
+    }
+
+    .footer .container {
         padding: 50px 100px;
-        margin: 0 auto;
     }
 
     .foot-div {
@@ -305,7 +300,5 @@
     .footer-contacts {
         margin-bottom: 0%;
     }
-
-
 
 }
