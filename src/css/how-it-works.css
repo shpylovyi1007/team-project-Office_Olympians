@@ -48,7 +48,7 @@ ol {
   list-style-type: none;
 }
 
-li::before {
+.steps-list::before {
   counter-increment: section; 
   content: counters(section, ".")
 }
@@ -92,7 +92,7 @@ ol.steps-item {
 }
 
 .second-item {
-  max-width: 176px;
+  max-width: 200px;
 }
 
 .steps-list p{
