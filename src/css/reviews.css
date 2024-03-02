@@ -1,0 +1,134 @@
+.reviews {
+    padding: 80px 0;
+}
+
+.reviews-title {
+    width: 335px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.reviews-span {
+    color: #576F35;
+}
+
+.reviews-title-text {
+    width: 335px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.29;
+    margin-bottom: 40px;
+}
+
+.reviews-list {
+    display: flex;
+}
+
+.reviews-item {
+    display: flex;
+    height: 238px;
+    padding: 20px 16px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 24px;
+    border: 1px solid rgba(122, 49, 69, 0.30);
+    background: #FBFBFB;
+}
+
+.customer-photo {
+    width: 56px;
+    height: 56px;
+    border-radius: 100px;
+    margin-bottom: 24px;
+}
+
+.reviews-subtitle {
+    color: #040306;
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    margin-bottom: 8px;
+}
+
+.reviews-subtitle-text {
+    width: 280px;
+    color: rgba(4, 3, 6, 0.40);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.29;
+}
+
+.victoria-hidden {
+    display: none;
+}
+
+.ihor-hidden {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .reviews {
+        padding: 100px 0;
+    }
+
+    .reviews-title {
+        width: 553px;
+        font-size: 64px;
+        line-height: 1.0;
+        margin-bottom: 25px;
+    }
+    
+    .reviews-title-text {
+        width: 553px;
+        font-size: 16px;
+        line-height: 1.25;
+        margin-bottom: 50px;
+    }
+
+    .reviews-list {
+        display: flex;
+        flex-direction: row;
+        gap: 18px;
+    }
+
+    .reviews-item {
+        height: 258px;
+        padding: 20px;
+        width: calc((100% - 18px) / 2)
+    }
+
+    .victoria-hidden {
+        display: flex;
+    }
+
+    .reviews-subtitle {
+        color: #141414;
+        font-size: 18px;
+        line-height: 1.1;
+    }
+
+    .reviews-subtitle-text {
+        color: rgba(20, 20, 20, 0.40);
+        font-size: 16px;
+        line-height: 1.4;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .reviews-list {
+        gap: 25px;
+    }
+
+    .reviews-item {
+        width: calc((100% - 50px) / 3)
+    }
+
+    .victoria-hidden {
+        display: flex;
+    }
+    
+    .ihor-hidden {
+        display: flex;
+    }
+}
