@@ -156,23 +156,25 @@ ol.steps-item {
 
 @media screen and (min-width: 1280px) {
 
-.steps .container{
+.container-steps {
   display: flex;
 }
 
-.works-steps-img{
-  padding: 100px 84px;
-  max-width: 630px;
-}
-
-.cooking-img {
-  width: 430px;
-  height: 559px;
+.works-steps-img {
+  flex-basis: calc((100% - 0px) / 2);
+  padding: 100px 84px 100px 84px;
+  display: flex;
+  justify-content: center;
 }
 
 .works-container-steps {
+  flex-basis: calc((100% - 0px) / 2);
   padding: 100px 84px 160px 84px;
-  max-width: 650px;
+}
+
+.cooking-img {
+  max-width: 430px;
+  height: 559px;
 }
 
 .steps-title-info {
