@@ -1,5 +1,5 @@
-<section class="your-order">
-  <div class="container">
+<section id="your-order" class="your-order">
+  <div class="container order-container">
     <h2 class="order-title">
       Fresh <span>harvest</span> box has got you covered
     </h2>
@@ -22,25 +22,27 @@
             name="user-name"
             class="order-input"
             id="order-form"
-            autofocus
+            required
             placeholder="Full Name"
           />
           <label for="email"></label>
           <input
-            type="text"
+            type="email"
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            required
             name="user-email"
             class="order-input"
             id="email"
-            autofocus
             placeholder="Email"
           />
-          <label for="comment" class="modal-label"></label>
+          <label for="comment"></label>
           <textarea
             name="user-comment"
             id="comment"
             class="order-textarea"
             placeholder="Comment"
           ></textarea>
+          <button class="order-btn" type="submit">Send</button>
         </form>
       </div>
       <div class="order-block">
@@ -84,6 +86,7 @@
               >instagram
             </a>
           </li>
+          <li class="order-link">/</li>
           <li>
             <a
               class="order-link"
@@ -93,6 +96,7 @@
               >facebook
             </a>
           </li>
+          <li class="order-link">/</li>
           <li>
             <a
               class="order-link"
