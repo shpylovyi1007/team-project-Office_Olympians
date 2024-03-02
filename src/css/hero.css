@@ -47,10 +47,11 @@
   }
 
   .section-hero .container {
-    padding-top: 122px;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
+  }
+
+  .section-hero-content {
+    padding-right: 16px;
+    padding-left: 16px;
   }
 
   .section-hero-title {
@@ -73,6 +74,11 @@
   .section-hero .container {
     display: flex;
   }
+
+  .container hero-container {
+    padding-top: 0;
+  }
+
   .hero-container {
     padding-top: 0;
     padding-left: 16px;
