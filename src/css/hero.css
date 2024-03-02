@@ -1,9 +1,14 @@
 .section-hero {
+  padding-top: 100px;
   background-color: #576f35;
 }
 
+.section-hero .container {
+  padding: 0;
+}
+
 .section-hero-content {
-  margin-bottom: 40px;
+  padding: 0 20px 40px;
 }
 
 .section-hero-title {
@@ -13,7 +18,6 @@
   line-height: 1;
   text-transform: uppercase;
   margin-bottom: 20px;
-  padding-top: 154px;
 }
 
 .section-hero-text {
@@ -21,6 +25,7 @@
   font-size: 14px;
   font-weight: 500;
   line-height: 1.28;
+  padding-right: 10px;
 }
 
 .section-hero-img {
@@ -42,27 +47,23 @@
 }
 
 @media screen and (min-width: 768px) {
-  .hero-container {
+  .section-hero {
     padding-top: 122px;
   }
 
-  .section-hero .container {
-  }
-
   .section-hero-content {
-    padding-right: 16px;
-    padding-left: 16px;
+    padding: 0 16px 50px;
   }
 
   .section-hero-title {
     font-size: 76px;
-    margin-bottom: 50px;
-    padding-top: 0;
+    margin-bottom: 25px;
   }
+
   .section-hero-text {
     font-size: 16px;
     line-height: 1.25;
-    padding-right: 101px;
+    padding-right: 116px;
   }
 
   .section-hero-img {
@@ -71,38 +72,33 @@
   }
 }
 @media screen and (min-width: 1280px) {
+  .section-hero {
+    padding-top: 0;
+  }
+
+  .section-hero-content {
+    width: calc((100% - 20px) / 2);
+    padding: 238px 16px 50px;
+  }
+
   .section-hero .container {
     display: flex;
+    gap: 20px;
   }
 
-  .container hero-container {
-    padding-top: 0;
-  }
-
-  .hero-container {
-    padding-top: 0;
-    padding-left: 16px;
-    padding-right: 28px;
-    margin-bottom: 50px;
-  }
   .section-hero-title {
-    padding-top: 172px;
-
     margin-bottom: 128px;
     width: 502px;
   }
+
   .section-hero-text {
     padding-right: 30px;
     width: 472px;
   }
 
   .section-hero-img {
-    max-width: 1280px;
+    width: calc((100% - 20px) / 2);
     height: 800px;
     margin: 0;
-  }
-
-  .section-hero-content {
-    padding-right: 28px;
   }
 }
