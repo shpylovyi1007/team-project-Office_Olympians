@@ -77,13 +77,12 @@
   }
 
   .section-hero-content {
-    width: calc((100% - 20px) / 2);
+    width: calc((100% - 0px) / 2);
     padding: 238px 16px 50px;
   }
 
   .section-hero .container {
     display: flex;
-    gap: 20px;
   }
 
   .section-hero-title {
@@ -97,7 +96,7 @@
   }
 
   .section-hero-img {
-    width: calc((100% - 20px) / 2);
+    width: calc((100% - 0px) / 2);
     height: 800px;
     margin: 0;
   }
