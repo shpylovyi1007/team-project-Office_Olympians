@@ -37,6 +37,7 @@
 .reviews-item {
   position: relative;
   display: flex;
+  height: 258px;
   padding: 20px 16px 24px;
   flex-direction: column;
   align-items: center;
@@ -76,7 +77,7 @@
   font-size: 14px;
   font-weight: 500;
   line-height: 1.29;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .list-star {
@@ -107,9 +108,6 @@
   .reviews {
     padding: 100px 0;
   }
-  .reviews {
-    padding: 100px 0;
-  }
 
   .reviews-title {
     width: 553px;
@@ -124,25 +122,7 @@
     line-height: 1.25;
     margin-bottom: 50px;
   }
-  .reviews-title {
-    width: 553px;
-    font-size: 64px;
-    line-height: 1;
-    margin-bottom: 25px;
-  }
 
-  .reviews-title-text {
-    width: 553px;
-    font-size: 16px;
-    line-height: 1.25;
-    margin-bottom: 50px;
-  }
-
-  .reviews-list {
-    display: flex;
-    flex-direction: row;
-    gap: 18px;
-  }
   .reviews-list {
     display: flex;
     flex-direction: row;
@@ -150,18 +130,11 @@
   }
 
   .reviews-item {
-    height: 258px;
     padding: 20px;
     width: calc((100% - 18px) / 2);
-  }
-  .reviews-item {
-    padding: 16px 20px 12px;
-    width: calc((100% - 18px) / 2);
+    height: 288px;
   }
 
-  .victoria-hidden {
-    display: flex;
-  }
   .victoria-hidden {
     display: flex;
   }
@@ -171,17 +144,7 @@
     font-size: 18px;
     line-height: 1.1;
   }
-  .reviews-subtitle {
-    color: #141414;
-    font-size: 18px;
-    line-height: 1.1;
-  }
 
-  .reviews-subtitle-text {
-    color: rgba(20, 20, 20, 0.4);
-    font-size: 16px;
-    line-height: 1.4;
-  }
   .reviews-subtitle-text {
     color: rgba(20, 20, 20, 0.4);
     font-size: 16px;
@@ -193,24 +156,11 @@
   .reviews-list {
     gap: 25px;
   }
-  .reviews-list {
-    gap: 25px;
-  }
 
   .reviews-item {
     width: calc((100% - 50px) / 3);
   }
-  .reviews-item {
-    width: calc((100% - 50px) / 3);
-  }
 
-  .victoria-hidden {
-    display: flex;
-  }
-
-  .ihor-hidden {
-    display: flex;
-  }
   .victoria-hidden {
     display: flex;
   }
