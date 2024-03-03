@@ -96,19 +96,9 @@
   justify-content: center;
 }
 
-@media screen and (min-width: 375px) {
-  .container {
-    width: 375px;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .vegetables {
     padding: 100px 0;
-  }
-
-  .container {
-    width: 768px;
   }
 
   .title-vegetables {
@@ -138,10 +128,6 @@
 @media screen and (min-width: 1280px) {
   .vegetables {
     padding: 100px 0;
-  }
-
-  .container {
-    width: 1280px;
   }
 
   .list-vegetables {
