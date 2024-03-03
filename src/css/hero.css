@@ -1,6 +1,8 @@
 .section-hero {
   padding-top: 100px;
   background-color: #576f35;
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
 .section-hero .container {

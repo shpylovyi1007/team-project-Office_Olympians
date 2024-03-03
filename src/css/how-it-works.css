@@ -1,5 +1,7 @@
 .steps {
   background-color: #7a3145;
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
 .steps .container {
