@@ -4,6 +4,12 @@
   background-color: #7a3145;
 }
 
+.order-container {
+  margin: 0 auto;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
 .order-title {
   font-weight: 600;
   font-size: 48px;
@@ -83,6 +89,10 @@
   color: #141414;
 }
 
+.order-input:focus {
+  border: 1px solid #e74a3b;
+}
+
 .order-input[type='email']:valid {
   border-color: #3cbc81;
 }
@@ -125,7 +135,7 @@
 }
 
 .order-btn {
-  background-color: #576f35;
+  background-color: rgb(87, 111, 53);
   border-radius: 30px;
   padding: 16px;
   width: 100%;
@@ -142,7 +152,7 @@
 .order-btn:hover,
 .order-btn:focus,
 .order-btn:active {
-  background-color: rgba(87, 111, 53, 0.7);
+  background-color: rgb(105, 127, 75);
 }
 
 .order-block {
