@@ -95,10 +95,6 @@
   border-color: #3cbc81;
 }
 
-/* .order-input[type='email']:invalid {
-  border-color: #e74a3b;
-} */
-
 .order-input:placeholder-shown {
   border-color: rgba(20, 20, 20, 0.2);
 }
@@ -161,7 +157,6 @@
 }
 
 .order-img {
-  max-width: 100%;
   margin-bottom: 20px;
 }
 
@@ -253,10 +248,6 @@
     width: 628px;
   }
 
-  .order-img {
-    max-width: 528px;
-  }
-
   .order-block-text {
     font-size: 18px;
     line-height: 1.11;
@@ -303,7 +294,6 @@
   }
 
   .order-img {
-    width: 427px;
     height: 273px;
     margin-bottom: 50px;
   }
