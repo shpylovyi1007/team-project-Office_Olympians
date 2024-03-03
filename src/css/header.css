@@ -48,6 +48,7 @@ html {
 }
 
 .header-mob-burger {
+  z-index: 999;
   display: none;
   position: fixed;
   top: 0;
