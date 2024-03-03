@@ -223,7 +223,7 @@ html {
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 100%;
+    width: 1080px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -272,7 +272,7 @@ html {
     font-weight: 600;
     border-radius: 30px;
     border: none;
-    margin-left: 12px;
+    margin-left: 20px;
   }
 
   .shop-now:hover,
