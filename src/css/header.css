@@ -2,8 +2,12 @@ button {
   cursor: pointer;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .header-container {
-    display: none;
+  display: none;
 }
 
 .header-mob {
@@ -23,17 +27,19 @@ button {
   display: flex;
   align-items: center;
   gap: 4px;
+  color: #fbfbfb;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 
 .icon-logo {
   width: 16px;
   height: 16px;
-  
 }
 
-.header-text {
-  width: 148px;
-  height: 12px;
+.header-mob-right {
+  cursor: pointer;
 }
 
 .burger-open {
@@ -42,6 +48,7 @@ button {
 }
 
 .header-mob-burger {
+  z-index: 999;
   display: none;
   position: fixed;
   top: 0;
@@ -50,6 +57,7 @@ button {
   width: 100%;
   height: 100%;
   color: #fbfbfb;
+  transition: display 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-mob-close {
@@ -68,8 +76,7 @@ button {
 .header-mob-nav {
   margin: 0 auto;
   margin-top: 240px;
-  /* max-width: 122px; */
-  max-width: 115px;
+  max-width: 116px;
   text-align: center;
 }
 
@@ -80,15 +87,16 @@ button {
 }
 
 .mob-nav-item:not(:last-child) {
-  margin-bottom: 32px;
+  margin-bottom: 34px;
 }
 
 .mob-link {
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   font-size: 14px;
   font-weight: 500;
   padding: 12px 16px;
+  color: #fbfbfb;
   border-radius: 12px;
   border: 1px solid #fbfbfb;
 }
@@ -129,6 +137,7 @@ button {
 
   .header-mob-left {
     gap: 8px;
+    font-size: 20px;
   }
 
   .icon-logo {
@@ -173,11 +182,7 @@ button {
     text-align: center;
     margin: 0 auto;
     margin-top: 372px;
-    max-width: 116px;
-  }
-
-  .mob-nav-item:not(:last-child) {
-    margin-bottom: 32px;
+    max-width: 120px;
   }
 
   .mob-link {
@@ -229,6 +234,10 @@ button {
     align-items: center;
     gap: 8px;
     margin-top: 49px;
+    font-size: 20px;
+    color: #fbfbfb;
+    font-weight: 500;
+    text-transform: uppercase;
   }
 
   .nav-list {
@@ -240,7 +249,7 @@ button {
 
   .nav-link {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     font-size: 16px;
     font-weight: 500;
     padding: 12px;

@@ -41,13 +41,13 @@ h2 {
   }
 
   .container {
-    max-width: 768px;
+    max-width: 734px;
     padding: 0 16px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .container {
-    max-width: 1280px;
+    max-width: 1112px;
   }
 }
