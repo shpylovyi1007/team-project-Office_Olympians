@@ -24,6 +24,8 @@ body {
 
 h2 {
   font-size: 48px;
+  font-weight: 600;
+  line-height: 1.04;
 }
 
 .container {
@@ -35,20 +37,17 @@ h2 {
 @media screen and (min-width: 768px) {
   h2 {
     font-size: 64px;
-    font-weight: 600;
     line-height: 1;
-    letter-spacing: -0.015em;
   }
 
   .container {
     max-width: 768px;
-    padding: 0 32px;
+    padding: 0 16px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .container {
     max-width: 1280px;
-    padding: 0 100px;
   }
 }
