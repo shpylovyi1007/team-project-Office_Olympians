@@ -20,7 +20,9 @@
 
 .cooking-img {
   border-radius: 30px;
+  overflow: hidden;
   background: rgba(20, 20, 20, 0.3);
+  border-radius: 42px;
 }
 
 .container-steps-img {
