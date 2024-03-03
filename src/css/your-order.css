@@ -6,8 +6,6 @@
 
 .order-container {
   margin: 0 auto;
-  padding-left: 100px;
-  padding-right: 100px;
 }
 
 .order-title {
@@ -276,6 +274,11 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .order-container {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
   .order-title {
     max-width: 751px;
   }
