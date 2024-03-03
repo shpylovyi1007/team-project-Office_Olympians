@@ -62,7 +62,8 @@
 
 .list-star {
     position: absolute;
-    left: 110px;
+    left: 50%;
+    transform: translateX(-50%) ;
     bottom: 8px;
     display: flex;
     gap: 4px;
@@ -112,9 +113,6 @@
         width: calc((100% - 18px) / 2)
     }
 
-    .list-star {
-        left: 123px;
-    }
 
     .victoria-hidden {
         display: flex;
