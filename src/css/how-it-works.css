@@ -5,6 +5,7 @@
 
 .steps .container {
   padding: 0;
+  max-width: 100%;
 }
 
 .works-steps-img {
