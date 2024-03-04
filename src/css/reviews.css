@@ -1,6 +1,5 @@
 .reviews {
   padding: 80px 0;
-  padding: 80px 0;
 }
 
 .reviews-title {
@@ -13,7 +12,6 @@
 }
 
 .reviews-span {
-  color: #576f35;
   color: #576f35;
 }
 
@@ -44,6 +42,7 @@
   border-radius: 24px;
   border: 1px solid rgba(122, 49, 69, 0.3);
   background: #fbfbfb;
+  height: 258px;
 }
 
 .customer-photo {

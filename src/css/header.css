@@ -6,6 +6,22 @@ html {
   scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(122, 49, 68, 0.55);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(122, 49, 68, 0.9);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(98, 33, 51, 0.9);
+}
+
 .header-container {
   display: none;
 }
