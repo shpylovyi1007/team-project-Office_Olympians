@@ -6,6 +6,10 @@ html {
   scroll-behavior: smooth;
 }
 
+a {
+  display: block;
+}
+
 ::-webkit-scrollbar {
   width: 15px;
 }
@@ -76,6 +80,10 @@ html {
   transition: display 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.mob-container {
+  padding: 240px 20px 20px;
+}
+
 .header-mob-close {
   position: absolute;
   top: 20px;
@@ -91,7 +99,6 @@ html {
 
 .header-mob-nav {
   margin: 0 auto;
-  margin-top: 240px;
   max-width: 116px;
   text-align: center;
 }
@@ -103,7 +110,7 @@ html {
 }
 
 .mob-nav-item:not(:last-child) {
-  margin-bottom: 34px;
+  margin-bottom: 8px;
 }
 
 .mob-link {
@@ -179,6 +186,7 @@ html {
     position: absolute;
     right: 0;
     top: 0;
+    padding-top: 360px;
     height: 100%;
     width: 351px;
     background-color: #7a3145;
@@ -197,7 +205,6 @@ html {
   .header-mob-nav {
     text-align: center;
     margin: 0 auto;
-    margin-top: 372px;
     max-width: 120px;
   }
 
@@ -243,13 +250,13 @@ html {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 36px;
   }
 
   .header-left {
     display: flex;
     align-items: center;
     gap: 8px;
-    margin-top: 49px;
     font-size: 20px;
     color: #fbfbfb;
     font-weight: 500;
@@ -257,7 +264,6 @@ html {
   }
 
   .nav-list {
-    margin-top: 48px;
     display: flex;
     align-items: center;
     gap: 8px;
@@ -288,7 +294,7 @@ html {
     font-weight: 600;
     border-radius: 30px;
     border: none;
-    margin-left: 20px;
+    margin-left: 14px;
   }
 
   .shop-now:hover,
