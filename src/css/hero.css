@@ -1,7 +1,6 @@
 .section-hero {
   padding-top: 100px;
   background-color: #576f35;
-  max-width: 1112px;
   margin: 0 auto;
 }
 
@@ -51,10 +50,17 @@
 @media screen and (min-width: 768px) {
   .section-hero {
     padding-top: 122px;
+    max-width: 768px;
+  }
+
+  .hero-container {
+    max-width: 768px;
   }
 
   .section-hero-content {
     padding: 0 16px 50px;
+    max-width: 736px;
+    margin: 0 auto;
   }
 
   .section-hero-title {
@@ -76,6 +82,7 @@
 @media screen and (min-width: 1280px) {
   .section-hero {
     padding-top: 0;
+    max-width: 1112px;
   }
 
   .section-hero-content {
@@ -85,6 +92,7 @@
 
   .section-hero .container {
     display: flex;
+    max-width: 1112px;
   }
 
   .section-hero-title {

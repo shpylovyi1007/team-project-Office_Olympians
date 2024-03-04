@@ -1,12 +1,10 @@
 .steps {
   background-color: #7a3145;
-  max-width: 1112px;
   margin: 0 auto;
 }
 
 .steps .container {
   padding: 0;
-  max-width: 100%;
 }
 
 .works-steps-img {
@@ -43,9 +41,9 @@
 }
 
 .steps-title-deskr {
-  padding-top: 20px;
-  padding-bottom: 40px;
-  font-weight: 500; /* в макеті 500, але гарніше коли 400 */
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-weight: 500;
   font-size: 14px;
   letter-spacing: -0.02em;
   line-height: 1.29;
@@ -62,7 +60,7 @@ ol {
   content: counters(section, '.');
 }
 
-ol.steps-item {
+.steps-item {
   list-style: none;
   counter-reset: step;
   display: flex;
@@ -105,14 +103,13 @@ ol.steps-item {
 
 .steps-list p {
   padding-left: 29px;
-  font-weight: 500; /*але гарніше якщо 400*/
+  font-weight: 500;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: -0.02em;
   color: rgba(20, 20, 20, 0.6);
   text-align: left;
   vertical-align: middle;
-  /* max-width: 235px; */
 }
 
 .steps-list-important {
@@ -121,17 +118,32 @@ ol.steps-item {
 }
 
 @media screen and (min-width: 768px) {
+  .steps {
+    max-width: 768px;
+  }
+
+  .steps .container {
+    max-width: 768px;
+  }
+
   .works-steps-img {
-    padding: 100px 64px;
+    padding: 100px 16px;
   }
 
   .cooking-img {
     width: 640px;
     height: 640px;
+    margin: 0 auto;
   }
 
   .works-container-steps {
+    width: 100%;
     padding: 100px 143px;
+  }
+
+  .right-container {
+    max-width: 450px;
+    margin: 0 auto;
   }
 
   .steps-title-info {
@@ -144,8 +156,12 @@ ol.steps-item {
   }
 
   .steps-title-deskr {
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 50px;
     line-height: 1.25;
     font-size: 16px;
+    max-width: 444px;
   }
 
   .steps-list {
@@ -162,7 +178,12 @@ ol.steps-item {
 }
 
 @media screen and (min-width: 1280px) {
+  .steps {
+    max-width: 1112px;
+  }
+
   .steps .container {
+    max-width: 1112px;
     display: flex;
   }
 
@@ -172,14 +193,13 @@ ol.steps-item {
 
   .works-steps-img {
     width: 50%;
-    padding: 100px 84px 100px 84px;
     display: flex;
     justify-content: center;
   }
 
   .works-container-steps {
     width: 50%;
-    padding: 100px 84px 160px 84px;
+    padding: 100px 16px 160px 16px;
   }
 
   .cooking-img {
@@ -187,11 +207,7 @@ ol.steps-item {
     height: 559px;
   }
 
-  .steps-title-info {
-    padding-bottom: 25px;
-  }
-
   .steps-list {
-    padding: 17px 29px 17px 29px;
+    padding: 17px 25px 17px 29px;
   }
 }
