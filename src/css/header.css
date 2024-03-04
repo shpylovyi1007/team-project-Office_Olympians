@@ -148,7 +148,7 @@ html {
 
 @media screen and (min-width: 768px) {
   .header-mob-container {
-    padding: 32px;
+    padding: 32px 16px;
   }
 
   .header-mob-left {

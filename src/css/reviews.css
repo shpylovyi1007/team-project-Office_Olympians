@@ -3,10 +3,6 @@
 }
 
 .reviews-title {
-  width: 335px;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-  width: 335px;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
@@ -16,33 +12,20 @@
 }
 
 .reviews-title-text {
-  width: 335px;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.29;
   margin-bottom: 40px;
-  width: 335px;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.29;
-  margin-bottom: 40px;
-}
-
-.reviews-list {
-  display: flex;
 }
 
 .reviews-item {
-  position: relative;
   display: flex;
-  height: 258px;
   padding: 20px 16px 24px;
   flex-direction: column;
   align-items: center;
   border-radius: 24px;
   border: 1px solid rgba(122, 49, 69, 0.3);
   background: #fbfbfb;
-  height: 258px;
 }
 
 .customer-photo {
@@ -70,20 +53,15 @@
 }
 
 .reviews-subtitle-text {
-  width: 280px;
   color: rgba(4, 3, 6, 0.4);
   text-align: center;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.29;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
 }
 
 .list-star {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 22px;
   display: flex;
   gap: 4px;
 }
@@ -131,7 +109,6 @@
   .reviews-item {
     padding: 20px;
     width: calc((100% - 18px) / 2);
-    height: 288px;
   }
 
   .victoria-hidden {
@@ -148,6 +125,10 @@
     color: rgba(20, 20, 20, 0.4);
     font-size: 16px;
     line-height: 1.4;
+  }
+
+  .victoria-hidden .reviews-subtitle-text {
+    margin-bottom: 38px;
   }
 }
 
@@ -166,5 +147,9 @@
 
   .ihor-hidden {
     display: flex;
+  }
+
+  .ihor-hidden .reviews-subtitle-text {
+    margin-bottom: 38px;
   }
 }
