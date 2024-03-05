@@ -223,6 +223,7 @@
     font-size: 18px;
     font-weight: 500;
     line-height: 1.11;
+    max-width: 172px;
   }
 
   .privacy-policy-div {
@@ -270,6 +271,10 @@
 
   .privacy-policy-div {
     margin-right: 660px;
+  }
+
+  .privacy-policy-link {
+    max-width: 172px;
   }
 
   .footer-text {
