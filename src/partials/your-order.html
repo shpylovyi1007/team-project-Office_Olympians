@@ -16,37 +16,38 @@
           you !
         </p>
         <form class="order-form">
-          <div>
+          <div class="container-input-form">
             <label for="order-form"></label>
-            <input
-              type="text"
-              name="user-name"
-              class="order-input"
-              id="order-form"
-              required
-              placeholder="Full Name"
-            />
-          </div>
-          <div>
-            <label for="email-user"></label>
-            <input
-              type="email"
-              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-              required
-              name="user-email"
-              class="order-input"
-              id="email-user"
-              placeholder="Email"
-            />
-          </div>
-          <div>
-            <label for="comment"></label>
-            <textarea
-              name="user-comment"
-              id="comment"
-              class="order-textarea"
-              placeholder="Comment"
-            ></textarea>
+              <input
+                type="text"
+                name="user-name"
+                class="order-input"
+                id="order-form"
+                required
+                placeholder="Full Name"
+              />
+            </di>
+            <div>
+              <label for="email-user"></label>
+              <input
+                type="email"
+                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                required
+                name="user-email"
+                class="order-input"
+                id="email-user"
+                placeholder="Email"
+              />
+            </div>
+            <div>
+              <label for="comment"></label>
+              <textarea
+                name="user-comment"
+                id="comment"
+                class="order-textarea"
+                placeholder="Comment"
+              ></textarea>
+            </div>
           </div>
           <button class="order-btn" type="submit">Send</button>
         </form>
