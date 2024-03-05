@@ -95,12 +95,6 @@
   border-color: #3cbc81;
 }
 
-.order-input:invalid {
-  background-color: ivory;
-  border: none;
-  outline: 1px solid red;
-}
-
 .order-input:placeholder-shown {
   border-color: rgba(20, 20, 20, 0.2);
 }
