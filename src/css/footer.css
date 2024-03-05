@@ -111,8 +111,10 @@
   color: #7a3145;
 }
 
-.privacy-policy {
-  display: flex;
+@media (min-width: 375px) {
+  .privacy-policy {
+    display: flex;
+  }
 }
 
 .privacy-policy-list {
